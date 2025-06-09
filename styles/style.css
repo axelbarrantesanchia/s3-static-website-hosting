@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap'); 
+
+:root {
+    --color-primario: #010004;
+    --color-secundario: #f6f6f6;
+    --color-terciario: #604CC3;
+    --color-hover: #f6f6f6;
+
+    --fuente-montserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+}
+
+.header {
+    padding: 1% 0 0 15%; /* Espaciado superior, ajustado para más consistencia */
+}
+
+.header_menu {
+    display: flex;
+    gap: 40px; /* Espaciado entre los enlaces */
+}
+
+.header_menu_link {
+    font-family: var(--fuente-montserrat);
+    font-size: 1.2rem; /* Tamaño de fuente reducido */
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-terciario);
+}
+
+.header_menu_link:hover {
+    color: var(--color-hover);
+    background-color: var(--color-terciario);
+    border-radius: 4px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    margin: 1% 5%; /* Margen reducido para más espacio */
+    justify-content: space-between;
+    gap: 20px; /* Espaciado reducido */
+    overflow: hidden; /* Evita el desbordamiento en el contenedor principal */
+}
+
+.principal_contenido {
+    flex: 1; /* Permite que el contenido ocupe el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio reducido entre elementos */
+}
+
+.principal_contenido_titulo {
+    font-size: 24px; /* Tamaño de fuente reducido */
+    font-family: "Krona One", sans-serif;
+}
+
+.titulo-destacado {
+    color: var(--color-terciario);
+}
+
+.class_principal_parrafo {
+    font-size: 1.2rem; /* Tamaño de fuente reducido */
+    font-family: var(--fuente-montserrat);
+}
+
+.principal_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espaciado reducido */
+}
+
+.principal_enlances_link {
+    display: flex;
+    width: 100%; /* Se asegura de que el enlace ocupe el ancho completo */
+    max-width: 250px; /* Limita el ancho máximo para evitar el desbordamiento */
+    text-align: center;
+    padding: 1px 0; /* Espaciado reducido */
+    border-radius: 8px;
+    font-family: var(--fuente-montserrat);
+    font-size: 1rem; /* Tamaño de fuente reducido */
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    justify-content: center;
+    gap: 8px; /* Espaciado reducido */
+}
+
+.principal___enlaces__sub {
+    font-family: var(--fuente-krona);
+    font-size: 1.2rem; /* Tamaño de fuente reducido */
+    font-weight: 400;
+}
+
+.principal_enlances_link:hover {
+    background-color: var(--color-hover);
+}
+
+.presentacion__imagen {
+    width: 40%; /* Ajuste el tamaño para que no desborde */
+    max-width: 350px; /* Limita el tamaño máximo de la imagen */
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 5%;
+    }
+    .header_menu {
+        justify-content: center;
+        flex-wrap: wrap; /* Permite que los elementos se ajusten en línea */
+    }
+    .principal {
+        flex-direction: column-reverse;
+        margin: 1% 5%; /* Reduce el margen en pantallas pequeñas */
+    }
+    .principal_enlances_link {
+        width: 100%; /* Asegura que el enlace ocupe todo el ancho disponible */
+    }
+    .principal_contenido {
+        gap: 10px; /* Reduce el espacio entre elementos */
+    }
+}
