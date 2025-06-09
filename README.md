@@ -123,7 +123,7 @@ Verifica el mensaje de éxito tras hacer los objetos públicos.
 Paso 18: Probar nuevamente la página
 Recarga el enlace del bucket website endpoint. ¡Tu sitio ya está visible!
 
-![Paso 20](s3-pasos/paso20.png)
+![Paso 20](s3-pasos/Paginarecargada.png)
 <!-- -------------------------------------------------- -->
 Paso 19: Ir a la sección Permissions
 Haz clic en la pestaña Permissions de tu bucket.
