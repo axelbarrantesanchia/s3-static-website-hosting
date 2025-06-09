@@ -119,6 +119,7 @@ Paso 17: Confirmación de visibilidad
 Verifica el mensaje de éxito tras hacer los objetos públicos.
 
 ![Paso 19](s3-pasos/paso19.png)
+![Paso20](s3-pasos/paso20.png)
 <!-- -------------------------------------------------- -->
 Paso 18: Probar nuevamente la página
 Recarga el enlace del bucket website endpoint. ¡Tu sitio ya está visible!
