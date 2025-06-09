@@ -191,3 +191,8 @@ Paso 29: Intentar eliminar index.html
 Intenta eliminar index.html desde la consola. Verás que no es posible, gracias a la política aplicada.
 
 ![Paso 31](s3-pasos/paso31.png)
+
+✨ Autor
+**Axel Andres Barrantes Anchia**
+📍 Santa Ana, San José
+📧 [axelbarrantesanchia@gmail.com](mailto:axelbarrantesanchia@gmail.com)
